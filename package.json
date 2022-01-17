@@ -1,0 +1,16 @@
+{
+  "name": "bottemplate",
+  "version": "1.0.0",
+  "description": "A discord bot template, to create a new one quickly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Jules.#7341",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.1.0"
+  }
+}
