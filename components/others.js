@@ -7,23 +7,6 @@ module.exports = {
             },
             description: "Réponds pong!"
         },
-        "private": {
-            exe: async (client, interaction) => {
-                interaction.channel.send(
-                    {
-                        "content": null,
-                        "embeds": [
-                          {
-                            "description": "Pour copier ce formulaire sur téléphone, laisser simplement appuyer sur le message.",
-                            "color": 16025855
-                          }
-                        ]
-                      }
-                );
-                interaction.reply({ content: "Action effectuée.", ephemeral: true });
-            },
-            description: "Rien à voir par ici. 🕵️"
-        }
     },
     events: {
         "ready": async (client) => {
