@@ -1,16 +1,18 @@
 {
-  "name": "bottemplate",
+  "name": "sparkles",
   "version": "1.0.0",
-  "description": "A discord bot template, to create a new one quickly.",
+  "description": "A private discord bot.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    
   },
+  "keywords": [],
   "author": "Jules.#7341",
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^0.2.0-canary.0",
+    "discord-api-types": "^0.26.1",
     "discord.js": "^13.6.0",
-    "dotenv": "^14.1.0"
+    "dotenv": "^10.0.0"
   }
 }
