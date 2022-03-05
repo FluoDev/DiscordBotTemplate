@@ -27,7 +27,7 @@ commands: {
         exe: async (client, interaction) {
             // client: a reference to the client
             // interaction: the command that has been executed
-            interaction.reply("Command perfactly executed.");
+            interaction.reply("Command perfectly executed.");
         }
     }
 },
